@@ -28,7 +28,7 @@ export default function Page() {
             />
           </div>
 
-          <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 h-auto">
+          <div className="grid gap-3 lg:gap-0 grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 h-auto">
             <h1 className="font-bold text-6xl">
               The Bright Future of Web 3.0?
             </h1>

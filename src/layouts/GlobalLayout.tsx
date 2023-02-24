@@ -5,8 +5,10 @@ export default function GlobalLayout({ children }: { children: ReactNode }) {
   return (
     <>
       <Drawer>
-        <Navigation />
-        <main>{children}</main>
+        <div className="max-w-screen-xl mx-auto">
+          <Navigation />
+          <main>{children}</main>
+        </div>
       </Drawer>
     </>
   );

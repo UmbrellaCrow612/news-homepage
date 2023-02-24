@@ -1,4 +1,5 @@
 import { Inter } from "@next/font/google";
+import Head from "next/head";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -7,5 +8,12 @@ const inter = Inter({
 });
 
 export default function Page() {
-  return <div className={`${inter.className}`}>Homepage</div>;
+  return (
+    <div className={`${inter.className}`}>
+      <Head>
+        <title>News homepage</title>
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+      </Head>
+    </div>
+  );
 }

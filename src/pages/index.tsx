@@ -9,7 +9,7 @@ export default function Page() {
         {/* Future add og tags and other seo stuff */}
       </Head>
 
-      <div>Homepage</div>
+      <div id="#main-content">Homepage</div>
     </>
   );
 }

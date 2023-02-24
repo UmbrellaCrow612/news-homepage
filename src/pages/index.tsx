@@ -28,11 +28,11 @@ export default function Page() {
             />
           </div>
 
-          <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
+          <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 h-auto">
             <h1 className="font-bold text-6xl">
               The Bright Future of Web 3.0?
             </h1>
-            <div className="py-3 flex flex-col justify-between items-start lg:py-0">
+            <div className="flex gap-4 flex-col items-start">
               <p className="text-gray-500">
                 We dive into the next evolution of the web that claims to put
                 the power of the platform back into the hands of the people. But

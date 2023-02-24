@@ -9,11 +9,14 @@ const inter = Inter({
 
 export default function Page() {
   return (
-    <div className={`${inter.className}`}>
+    <>
       <Head>
         <title>News homepage</title>
         <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+        {/* Future add og tags and other seo stuff */}
       </Head>
-    </div>
+
+      <div className={`${inter.className}`}>Homepage</div>
+    </>
   );
 }

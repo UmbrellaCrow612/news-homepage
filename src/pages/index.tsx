@@ -32,7 +32,7 @@ export default function Page() {
             <h1 className="font-bold text-6xl">
               The Bright Future of Web 3.0?
             </h1>
-            <div className="px-4 py-3 flex flex-col justify-between items-start">
+            <div className="px-4 py-3 flex flex-col justify-between items-start lg:py-0">
               <p className="text-gray-500">
                 We dive into the next evolution of the web that claims to put
                 the power of the platform back into the hands of the people. But

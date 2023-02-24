@@ -2,8 +2,8 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 export default function MobileMenu() {
   return (
-    <button className="w-auto h-auto">
-      <AiOutlineMenu className="text-5xl"/>
-    </button>
+    <label htmlFor="my-drawer-4" className="drawer-button btn btn-ghost">
+      <AiOutlineMenu className="text-3xl"/>
+    </label>
   );
 }
